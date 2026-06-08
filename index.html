@@ -7,6 +7,8 @@
     <title>CMP Dubai</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
 <body>
@@ -28,9 +30,9 @@
             <button>Download App</button>
         </div>
     </header>
-     <!-- Header End Here -->
+    <!-- Header End Here -->
 
-     <!-- Hero Section Begin Here -->
+    <!-- Hero Section Begin Here -->
     <section class="hero-section">
         <div class="left-section">
             <h3>Get the Best Price, Faster.</h3>
@@ -38,14 +40,14 @@
             <p>List your property and receive real-time offers from <br>verified buyers within a secure and transparent
                 marketplace.</p>
             <div class="section-btn">
-                <div class="btn-1">
-                    <img src="./images/apple-logo.png" alt="">
-                    <h4>Download on <br><span>App Store</span></h4>
-                </div>
-                <div class="btn-2">
-                    <img src="./images/playStore.png" alt="">
-                    <h4>Get it on <br><span>Play Store</span></h4>
-                </div>
+                <button class="img-btn" type="button">
+                <img src="./images/apple-logo.png" alt="Icon" class="btn-icon">
+                <span class="text-start">Download on the <br>App Store</span>
+            </button>
+             <button class="img-btn-2" type="button">
+                <img src="./images/playStore.png" alt="Icon" class="btn-icon">
+                <span class="text-start">Get it on <br>Play Store</span>
+            </button>
             </div>
         </div>
         <div class="right-section">
@@ -53,12 +55,12 @@
         </div>
     </section>
     <!-- End Hero Section Here -->
- <div class="feature-section-1">
-         <h2>Enjoy a Next-Level Experience <br> with Our Advanced Features!</h2>
+    <div class="feature-section-1">
+        <h2>Enjoy a Next-Level Experience <br> with Our Advanced Features!</h2>
         <p>CMP replaces slow negotiations and scattered communication with a structured system</p>
         <p>where verified users can list properties and receive real-time offers instantly.</p>
     </div>
-  <!-- Feature Section Here -->
+    <!-- Feature Section Here -->
     <section class="feature-section-2">
         <div class="feature-card">
             <i class="fa-regular fa-circle-check"></i>
@@ -103,15 +105,17 @@
     <!-- Feature Section End here -->
 
     <!-- Begin How its Work Section -->
-<div class="how-section">
-         <h2>How it Works?</h2>
-        <p>Cash My Property simplifies property transactions through a structured process designed for verified professionals.</p>
-        <p>From listing to receiving real-time offers, every step is built to move deals forward faster and with greater transparency.</p>
+    <div class="how-section">
+        <h2>How it Works?</h2>
+        <p>Cash My Property simplifies property transactions through a structured process designed for verified
+            professionals.</p>
+        <p>From listing to receiving real-time offers, every step is built to move deals forward faster and with greater
+            transparency.</p>
     </div>
     <!-- End How its Work Section -->
 
     <!-- Begin Steps Here -->
-     <section class="step-section">
+    <section class="step-section">
         <div class="step-card">
             <i class="fa-solid fa-download"></i>
             <h2>Install the App</h2>
@@ -130,11 +134,11 @@
             <p>Track offers and close deals — all from the comfort of your phone.
             </p>
         </div>
-      </section>  
+    </section>
     <!-- End Steps Here -->
 
-     <!-- Download Section Begin Here -->
-  <section class="download-section">
+    <!-- Download Section Begin Here -->
+    <section class="download-section">
         <div class="download-left-section">
             <h1>Download <span>Cash My <br> Property</span> & Start <br> Connecting <span>Platform!</span></h1>
             <p>List properties, receive real-time offers, and manage transactions <br> directly from your phone</p>
@@ -154,6 +158,141 @@
         </div>
     </section>
     <!-- DOwnload Hero Section Here -->
+
+
+    <!-- Begin FAQ Section here -->
+    <div class="container w-50 text-center my-5">
+        <h1 class="fw-bold">Frequently Asked Questions</h1>
+        <p>Everything you need to know to start using Cash My Property.</p>
+    </div>
+    <div class="accordion container w-50 my-5" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button bg-white fw-bold text-dark" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What is Cash My Property?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Everything you need to know to start using Cash My Property. Cash My Property (CMP) is a
+                        real-time property offer platform designed for verified real estate
+                        professionals in Dubai. It allows agents to list properties and receive real-time offers within
+                        a secure and transparent ecosystem.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-white fw-bold text-dark" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                    aria-controls="collapseTwo">
+                    Who can use Cash My Property?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>CMP is designed for only RERA-certified verified real estate professionals in Dubai. Users must
+                        complete registration and verification before accessing the platform to ensure a trusted
+                        environment.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-white fw-bold text-dark" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                    aria-controls="collapseThree">
+                    How does CMP ensure transaction security?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>CMP uses a strict verification process where users and listings are reviewed before going live.
+                        This helps maintain a secure platform and ensures only qualified professionals participate.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End FAQ Section Here -->
+
+    <!-- Begin Contact Us Section here -->
+    <div class="contact-us">
+        <div class="container my-5">
+            <h1 class="fw-bold w-50 text-center container mb-3">Lets Stay Connected</h1>
+            <p class="w-75 text-center container">Got questions or ready to sell? We’re here to help you cash in on your
+                property with real buyers and instant offer</p>
+        </div>
+        <form class="row g-3 container w-75 m-auto">
+            <div class="col-md-6">
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Enter Your Name">
+            </div>
+            <div class="col-md-6">
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Company (optional)">
+            </div>
+            <div class="col-6">
+                <input type="text" class="form-control" id="inputAddress" placeholder="Enter Your Email">
+            </div>
+            <div class="col-6">
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Enter Your Phone Number">
+            </div>
+            <div class="col-12">
+                <textarea type="text" class="form-control" rows="5" id="inputCity"
+                    placeholder="Tell us abour yourself"></textarea>
+            </div>
+            <div class="col-12 submit-btn">
+                <button type="submit" class="btn btn-primary">Contact us</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- End Contact us section here -->
+
+    <!-- Begin Footer Here -->
+    <footer class="container w-75">
+        <div class="footer-section-1">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="" srcset="">
+            </div>
+            <div class="footer-buttons">
+            <button class="img-btn" type="button">
+                <img src="./images/apple-logo.png" alt="Icon" class="btn-icon">
+                <span class="text-start">Download on the <br>App Store</span>
+            </button>
+             <button class="img-btn-2" type="button">
+                <img src="./images/playStore.png" alt="Icon" class="btn-icon">
+                <span class="text-start">Get it on <br>Play Store</span>
+            </button>
+            </div>
+        </div>
+        <div class="div"></div>
+        <div class="div"></div>
+
+    </footer>
+
+    <!-- <button class="img-btn" type="button">
+  <img src="./images/apple-logo.png" alt="Icon" class="btn-icon">
+  <span  class="text-start">Download on the <br>App Store</span>
+</button> -->
+    <!-- <div class="footer-buttons">
+                <div class="footer-btn-1">
+                    <img src="./images/apple-logo.png" alt="">
+                    <h4>Download on <br><span>App Store</span></h4>
+                </div>
+                <div class="footer-btn-2">
+                    <img src="./images/playStore.png" alt="">
+                    <h4>Get it on <br><span>Play Store</span></h4>
+                </div>
+            </div> -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
