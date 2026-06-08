@@ -57,6 +57,13 @@ header{
 .menus ul li{
     list-style: none;
 }
+.menus ul li:hover{
+    color: #bd754c;
+    cursor: pointer;
+    background-color: #feb68c1c;
+    padding: 2%;
+    border-radius: 50px;
+}
 .button{
     width: 15%;
     height: 80%;
@@ -202,6 +209,10 @@ header{
     align-items: center;
     justify-content: center;
 }
+.feature-card i:hover{
+    color: white;
+    background-color: #bd754c;
+}
 .feature-card h2{
     font-size: 34px;
     color: rgba(0, 0, 0, 0.89);
@@ -342,6 +353,10 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.step-card i:hover{
+    color: white;
+    background-color: #bd754c;
 }
 .step-card h2{
     font-size: 34px;
