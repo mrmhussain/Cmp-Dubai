@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
 
     <!-- Begin Header  Here -->
-    <nav class="navbar navbar-expand-lg bg-white container sticky-top d-flex justify-content-between rounded-4">
+    <nav class="navbar navbar-expand-lg bg-white container sticky-top d-flex justify-content-between rounded-4 animate__animated animate__fadeInDown">
         <div class="container-fluid d-flex justify-content-between">
             <a class="navbar-brand" href="#"><img src="./images/logo.png" width="140px" height="80px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
@@ -22,21 +24,22 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll d-flex justify-content-around w-50 border border-light-subtle p-2 mb-2 border-opacity-25 rounded-5" style="--bs-scroll-height: 100px;">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll d-flex justify-content-around w-50 border border-light-subtle p-2 mb-2 border-opacity-25 rounded-5 nav-click"
+                    style="--bs-scroll-height: 100px;">
                     <li class="nav-item">
-                        <a class="nav-link active " aria-current="page" href="#">Features</a>
+                        <a class="nav-link active " aria-current="page" href="#features">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-medium" href="#">About</a>
+                        <a class="nav-link fw-medium" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-medium" href="#">How it Work</a>
+                        <a class="nav-link fw-medium" href="#how-it-work">How it Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-medium" href="#">Delete Account</a>
+                        <a class="nav-link fw-medium" href="#delete-account">Delete Account</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-medium" href="#">Support</a>
+                        <a class="nav-link fw-medium" href="#support">Support</a>
                     </li>
                 </ul>
                 <div class="d-flex ms-auto">
@@ -49,7 +52,7 @@
 
     <!-- Hero Section Begin Here -->
     <section class="hero-section">
-        <div class="left-section">
+        <div class="left-section animate__animated animate__fadeInLeft">
             <h3>Get the Best Price, Faster.</h3>
             <h1>Dubai’s First Real-Time Property Offer <br> <span>Platform!</span></h1>
             <p>List your property and receive real-time offers from <br>verified buyers within a secure and transparent
@@ -65,25 +68,25 @@
                 </button>
             </div>
         </div>
-        <div class="right-section">
+        <div class="right-section animate__animated animate__fadeInRight">
             <img src="./images/section.png" alt="">
         </div>
     </section>
     <!-- End Hero Section Here -->
-    <div class="feature-section-1">
+    <div class="feature-section-1 fade-up" data-aos="fade-up" id="features">
         <h2>Enjoy a Next-Level Experience <br> with Our Advanced Features!</h2>
         <p>CMP replaces slow negotiations and scattered communication with a structured system</p>
         <p>where verified users can list properties and receive real-time offers instantly.</p>
     </div>
     <!-- Feature Section Here -->
     <section class="feature-section-2">
-        <div class="feature-card">
+        <div class="feature-card" data-aos="zoom-in-up">
             <i class="fa-regular fa-circle-check"></i>
             <h2>Exclusive for RERA-Certified Brokers</h2>
             <p>Access is limited to verified real estate professionals, ensuring credibility and trusted participation.
             </p>
         </div>
-        <div class="feature-card">
+        <div class="feature-card" data-aos="zoom-in-up">
             <i class="fa-regular fa-clock"></i>
             <h2>Real-Time
                 Property Offers</h2>
@@ -91,7 +94,7 @@
                 allowing transparent price discovery
                 and faster decision-making.</p>
         </div>
-        <div class="feature-card">
+        <div class="feature-card" data-aos="zoom-in-up">
             <i class="fa-solid fa-circle"></i>
             <h2>Wide Network
                 of Brokers</h2>
@@ -100,7 +103,7 @@
                 exposure and deal opportunities
             </p>
         </div>
-        <div class="feature-card">
+        <div class="feature-card" data-aos="zoom-in-up">
             <i class="fa-solid fa-shield-halved"></i>
             <h2>Secure & Compliant
                 Platform</h2>
@@ -109,7 +112,7 @@
                 regulations.
             </p>
         </div>
-        <div class="feature-card">
+        <div class="feature-card" data-aos="zoom-in-up">
             <i class="fa-regular fa-message"></i>
             <h2>Instant Notifications & Alerts</h2>
             <p>Receive real-time alerts for new offers,
@@ -119,8 +122,8 @@
     </section>
     <!-- Feature Section End here -->
 
-     <!-- Begin How its Work Section -->
-    <div class="how-section">
+    <!-- Begin How its Work Section -->
+    <div class="how-section" data-aos="zoom-out-down" id="how-it-work">
         <h2>How it Works?</h2>
         <p>Cash My Property simplifies property transactions through a structured process designed for verified
             professionals.</p>
@@ -130,7 +133,7 @@
     <!-- End How its Work Section -->
 
     <!-- Begin Steps Here -->
-    <section class="step-section">
+    <section class="step-section" data-aos="zoom-out-down">
         <div class="step-card">
             <i class="fa-solid fa-download"></i>
             <h2>Install the App</h2>
@@ -153,30 +156,69 @@
     <!-- End Steps Here -->
 
     <!-- Download Section Begin Here -->
-    <!-- <section class="download-section">
+    <section class="download-section">
         <div class="download-left-section">
             <h1>Download <span>Cash My <br> Property</span> & Start <br> Connecting <span>Platform!</span></h1>
             <p>List properties, receive real-time offers, and manage transactions <br> directly from your phone</p>
             <div class="download-section-btn">
-                <div class="btn-2">
-                    <img src="./images/playStore.png" alt="">
-                    <h4>Get it on <br><span>Play Store</span></h4>
+                <div class="app-btn">
+                    <i class="fa-brands fa-google-play"></i>
+                    <h6>Get it on <br><span>Play Store</span></h6>
                 </div>
-                <div class="btn-1">
-                    <img src="./images/apple-logo.png" alt="">
-                    <h4>Download on <br><span>App Store</span></h4>
+                <div class="app-btn">
+                    <i class="fa-brands fa-apple"></i>
+                    <h6>Download on <br><span>App Store</span></h6>
                 </div>
             </div>
         </div>
-        <div class="right-section">
-            <img src="./images/downlaod-section.png" alt="">
+        <div class="download-right-section">
+            <img src="./images/downlaod-section.png">
         </div>
-    </section> -->
+    </section> 
     <!-- DOwnload Hero Section Here -->
 
+    <!-- Begin Delete Account Section -->
+    <div class="delete-section" data-aos="zoom-in" id="delete-account">
+        <h2>Delete Your Account</h2>
+        <p> At Cash My Property, we respect your privacy and give you full control over your data.</p>
+        <p>You can permanently delete your account at any time directly from the app by following <br>the steps below.</p>
+    </div>
+    <!-- End Delete Account Section -->
+    <!-- Begin Instruction Section here -->
+     <section class="instrtuction-section">
+        <div class="instruction-card" data-aos="flip-left">
+            <i class="fa-solid fa-download"></i>
+            <h4 class="fw-bold">How to Delete</h4 class="fw-bold">
+            <ul>
+                <li>Open the Cash My Property (CMP) app</li>
+                <li>Go to your Profile section</li>
+                <li>Tap the Delete Account option (top right corner)</li>
+                <li>Confirm your request by selecting Yes in the confirmation popup</li>
+                <li>Once confirmed, your account deletion request will be processed.</li>
+            </ul>
+        </div>
+        <div class="instruction-card" data-aos="flip-left">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <h4 class="fw-bold">Important Information</h4 class="fw-bold">
+            <ul>
+                <li>Account deletion is permanent and cannot be undone</li>
+                <li>All associated data, including profile and activity, will be removed</li>
+                <li>Any ongoing transactions may be affected or cancelled</li>
+            </ul>
+        </div>
+        <div class="instruction-card" data-aos="flip-left">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <h4 class="fw-bold">Need Help ?</h4>
+            <p>Facing issues trying to delete your account? <br>Our support team is always here to guide you.</p>
+            <button class="btn rounded-5 px-4 py-2 fw-medium download-btn">Contact Support</button>
+        </div>
+     </section>
+
+
+    <!-- End Instruction here -->
 
     <!-- Begin FAQ Section here -->
-    <section class="faq border border-bottom-1">
+    <section class="faq border border-bottom-1" data-aos="fade-up-right">
         <div class="container text-center my-5 w-md-50 w-sm-100">
             <h1 class="fw-bold">Frequently Asked Questions</h1>
             <p>Everything you need to know to start using Cash My Property.</p>
@@ -238,7 +280,7 @@
     <!-- End FAQ Section Here -->
 
     <!-- Begin Contact Us Section here -->
-    <div class="contact-us">
+    <div class="contact-us" data-aos="fade-up-left" id="support">
         <div class="container my-5">
             <h1 class="fw-bold w-50 text-center container mb-3">Lets Stay Connected</h1>
             <p class="w-75 text-center container">Got questions or ready to sell? We’re here to help you cash in on your
@@ -354,6 +396,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
         integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+  AOS.init();
+</script>
 </body>
 
 </html>
