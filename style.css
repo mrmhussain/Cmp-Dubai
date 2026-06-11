@@ -3,8 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-html, body {
-  overflow-x: clip;
+
+html,
+body {
+    overflow-x: clip;
 }
 
 body {
@@ -84,7 +86,7 @@ body {
     
 } */
 
-.nav-click li:hover{
+.nav-click li:hover {
     color: #bd754c;
     cursor: pointer;
     background-color: #feb68c1c;
@@ -93,6 +95,7 @@ body {
     padding-right: 3%;
     border-radius: 50px;
 }
+
 .download-btn {
     background-color: #bd754c !important;
     border: 1px solid #bd754c !important;
@@ -195,8 +198,9 @@ body {
     width: 100%;
     height: 100%;
 }
+
 /* Begin About Section */
-.about{
+.about {
     width: 70%;
     /* border: 2px solid black; */
     height: 120vh;
@@ -205,24 +209,31 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-.left-about{
+
+.left-about {
     width: 45%;
     height: 80%;
 }
-.left-about img{
+
+.left-about img {
     width: 100%;
     height: 100%;
 }
-.right-about{
+
+.right-about {
     width: 40%;
 }
-.right-about h5{
+
+.right-about h5 {
     color: #bd754c;
 }
-.right-about p ,.about-step-1 p{
-     color: rgba(0, 0, 0, 0.502);
+
+.right-about p,
+.about-step-1 p {
+    color: rgba(0, 0, 0, 0.502);
 }
-.about-step-1{
+
+.about-step-1 {
     display: flex;
     width: 100%;
     height: 100%;
@@ -230,13 +241,15 @@ body {
     align-items: center;
 
 }
- .sub-about-step{
- /* margin-top: 15%; */
-  /* padding-left: 5%; */
-  width: 75%;
-} 
-.about-step-1>h3{
-    padding:4%;
+
+.sub-about-step {
+    /* margin-top: 15%; */
+    /* padding-left: 5%; */
+    width: 75%;
+}
+
+.about-step-1>h3 {
+    padding: 4%;
     font-size: 20px;
     background-color: rgba(255, 255, 255, 0.436);
     border-radius: 50px;
@@ -327,7 +340,7 @@ body {
 }
 
 /* Download Section */
-.download-section{
+.download-section {
     width: 80%;
     height: 80vh;
     margin: 0 auto;
@@ -338,6 +351,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 .download-left-section {
     width: 50%;
     height: 100%;
@@ -345,6 +359,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
 }
+
 .download-left-section h3 {
     font-size: 22px;
     color: rgba(0, 0, 0, 0.502);
@@ -364,14 +379,16 @@ body {
     font-size: 18px;
     line-height: 30px;
 }
-.download-section-btn{
+
+.download-section-btn {
     width: 70%;
     /* height: 20%; */
     /* background-color: red; */
     display: flex;
     justify-content: space-between;
 }
-.app-btn{
+
+.app-btn {
     width: 45%;
     height: 70%;
     display: flex;
@@ -382,22 +399,71 @@ body {
     background-color: #bd754c;
     color: white;
 }
-.app-btn i{
+
+.app-btn i {
     font-size: 24px;
 }
-.download-right-section{
+
+.download-right-section {
     width: 50%;
     height: 100%;
 }
-.download-right-section img{
+
+.download-right-section img {
+    width: 85%;
+    height: 100%;
+}
+
+/* Begin FOunder Css here */
+.founder {
+    width: 80%;
+    /* border: 2px solid black; */
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+}
+.left-founder{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 2px solid green; */
+}
+.left-founder>p{
+    padding: 1% 4%;
+    font-size: 18px;
+    font-style: italic;
+    word-spacing: 1%;
+    /* margin-left: 4%; */
+    border-left: 3px solid #bd754c;
+}
+.mission , .vision{
+    border: 1px solid rgba(128, 128, 128, 0.158);
+    background-color: #ffffff49;
+    width: 93%;
+    padding: 2% 4%;
+    margin-bottom: 0%;
+    border-radius: 15px;
+}
+.mission h4 span,.vision h4 span{
+    color: #bd754c;
+}
+.right-founder{
+    width: 50%;
+    height: 100%;
+}
+.right-founder img{
     width: 85%;
     height: 100%;
 }
 
 
-
 /* How its work section begin here */
-.how-section{
+.how-section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -413,11 +479,11 @@ body {
     padding-bottom: 5%;
 }
 
-.how-section h2  {
+.how-section h2 {
     font-size: 44px;
 }
 
-.how-section p{
+.how-section p {
     font-size: 18px;
 }
 
@@ -488,15 +554,18 @@ body {
     padding-top: 3%;
     padding-bottom: 5%;
 }
+
 .delete-section h2 {
     font-size: 38px;
 }
+
 .delete-section p {
     font-size: 16px;
     text-align: center;
 }
+
 /* Instruction Section Begin here */
-.instrtuction-section{
+.instrtuction-section {
     width: 88%;
     height: 75vh;
     /* border: 2px solid black; */
@@ -506,7 +575,8 @@ body {
     align-items: center;
     margin-bottom: 4%;
 }
-.instruction-card{
+
+.instruction-card {
     width: 30%;
     height: 90%;
     background-color: white;
@@ -517,7 +587,8 @@ body {
     align-items: center;
     justify-content: space-evenly;
 }
-.instruction-card i{
+
+.instruction-card i {
     width: 20%;
     display: flex;
     align-items: center;
@@ -528,7 +599,9 @@ body {
     color: #bd754c;
     font-size: 22px;
 }
-.instruction-card ul li , .instruction-card p{
+
+.instruction-card ul li,
+.instruction-card p {
     color: rgba(0, 0, 0, 0.502);
     line-height: 30px;
 }
@@ -917,38 +990,92 @@ footer {
     }
 
     /* Contact Us */
-      .submit-btn button{
+    .submit-btn button {
         width: 50%;
     }
+
     /* End Contact us */
 
-    
-.download-section{
-    width: 90%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-.download-left-section {
-    margin: 0 auto;
-    text-align: center;
-    width: 85%;
-    height: 100%;
-}
-.download-section-btn{
-    display: flex;
-    margin: 0 auto;
-    width: 70%;
-    justify-content: space-evenly;
-}
-.download-right-section {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-}
+
+    .download-section {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .download-left-section {
+        margin: 0 auto;
+        text-align: center;
+        width: 85%;
+        height: 100%;
+    }
+
+    .download-section-btn {
+        display: flex;
+        margin: 0 auto;
+        width: 70%;
+        justify-content: space-evenly;
+    }
+
+    .download-right-section {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+
+    .about {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+
+    .left-about {
+        width: 80%;
+        height: 100%;
+        padding: 5%;
+    }
+
+    .right-about {
+        width: 85%;
+        height: 100%;
+    }
+    .founder {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .left-founder{
+        width: 80%;
+        /* margin-bottom: 5%; */
+    }
+    .right-founder {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5%;
+        margin-top: 3%;
+    }
+    .mission ,.vision{
+        margin-bottom: 3%;
+        margin-top: 2%;
+    }
+
+    .right-founder img {
+        width: 80%;
+    }
 
 }
 
@@ -1145,7 +1272,7 @@ footer {
     }
 
     /* Contact Us */
-    .submit-btn button{
+    .submit-btn button {
         /* display: flex; */
         width: 50%;
         /* justify-content: center; */
@@ -1208,52 +1335,102 @@ footer {
         display: none;
     }
 
-    .instrtuction-section{
-    width: 100%; 
-    height: 100%; 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-    .instruction-card{
-    width: 45%;
-    height: 100%;
-    margin-top: 5%;
-}
+    .instrtuction-section {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
 
-.instruction-card i{
-    width: 20%;
-    padding: 4%;
-} 
+    .instruction-card {
+        width: 45%;
+        height: 100%;
+        margin-top: 5%;
+    }
 
-.download-section{
-    width: 90%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-.download-left-section {
-    margin: 0 auto;
-    text-align: center;
-    width: 85%;
-    height: 100%;
-}
-.download-section-btn{
-    display: flex;
-    margin: 0 auto;
-    width: 70%;
-    justify-content: space-evenly;
-}
-.download-right-section {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-}
+    .instruction-card i {
+        width: 20%;
+        padding: 4%;
+    }
+
+    .download-section {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .download-left-section {
+        margin: 0 auto;
+        text-align: center;
+        width: 85%;
+        height: 100%;
+    }
+
+    .download-section-btn {
+        display: flex;
+        margin: 0 auto;
+        width: 70%;
+        justify-content: space-evenly;
+    }
+
+    .download-right-section {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+
+    .about {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+
+    .left-about {
+        width: 85%;
+        height: 100%;
+        padding: 3%;
+    }
+
+    .right-about {
+        width: 85%;
+        height: 100%;
+    }
+     .founder {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .left-founder{
+        width: 80%;
+        /* margin-bottom: 5%; */
+    }
+    .right-founder {
+        width: 80%;
+        height: 100%;
+        margin-bottom: 5%;
+    }
+    .mission ,.vision{
+        margin-bottom: 3%;
+        margin-top: 2%;
+    }
+
+    .right-founder img {
+        width: 90%;
+    }
 
 }
 
@@ -1559,48 +1736,100 @@ footer {
         box-shadow: 0px 5px 0px 0px #bd754c;
         margin-bottom: 10%;
     }
+
     /* .faq-responsive{
         width: 90% !important;
         background-color: red;
     } */
-     .instrtuction-section{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-    .instruction-card{
-    width: 90%;
-    height: 100%;
-    margin-top: 5%;
-}
+    .instrtuction-section {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 
-.instruction-card i{
-    width: 18%;
-    padding: 3%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 22%;
-}
-.download-section{
-   margin-bottom: 10%;
-   margin-top: 7%;
-}
-.download-left-section {
-    width: 100%;
-    height: 100%;
-}
-.download-section-btn{
-    width: 100%;
-}
-.download-right-section {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-}
+    .instruction-card {
+        width: 90%;
+        height: 100%;
+        margin-top: 5%;
+    }
+
+    .instruction-card i {
+        width: 18%;
+        padding: 3%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 22%;
+    }
+
+    .download-section {
+        margin-bottom: 10%;
+        margin-top: 7%;
+    }
+
+    .download-left-section {
+        width: 100%;
+        height: 100%;
+    }
+
+    .download-section-btn {
+        width: 100%;
+    }
+
+    .download-right-section {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+
+    .about {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+
+    .left-about {
+        width: 85%;
+        height: 100%;
+        padding: 5%;
+    }
+
+    .right-about {
+        width: 85%;
+        height: 100%;
+    }
+     .founder {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .left-founder{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    .right-founder {
+        width: 80%;
+        height: 100%;
+        margin-bottom: 5%;
+    }
+    .mission ,.vision{
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    .right-founder img {
+        width: 100%;
+    }
 }
